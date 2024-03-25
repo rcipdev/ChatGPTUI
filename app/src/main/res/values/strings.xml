@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ChatGPTUI</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="android_chatgpt_app">Chat GPT UI App</string>
+    <string name="prompt">Enter String</string>
+</resources>
