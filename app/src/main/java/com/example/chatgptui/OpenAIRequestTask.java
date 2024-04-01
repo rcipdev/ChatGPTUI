@@ -27,7 +27,7 @@ public class OpenAIRequestTask extends AsyncTask<String, Void, String> {
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             connection.setRequestMethod("POST");
             connection.setRequestProperty("Content-Type", "application/json");
-            connection.setRequestProperty("Authorization", "Bearer " + "");
+            connection.setRequestProperty("Authorization", "Bearer " + BuildConfig.TOKEN);
             connection.setDoOutput(true);
 
             // Construct request body
