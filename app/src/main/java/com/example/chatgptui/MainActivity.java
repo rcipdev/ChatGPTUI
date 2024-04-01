@@ -65,6 +65,8 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    //async task
+
     private static class OpenAIAsyncTask extends AsyncTask<String, Void, String> {
 
         public interface ResponseListener {
